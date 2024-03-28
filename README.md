@@ -2,12 +2,13 @@
 
 Bun Setup
 ```bash
+sudo dnf install git -y
 sudo dnf module list nodejs
 sudo dnf module enable nodejs:20 -y
 sudo dnf install nodejs -y
 npm config set registry https://registry.npmmirror.com
 npm install -g bun
-sudo dnf install git -y
+npm install -g pm2
 ```
 
 SSH Key Creation
