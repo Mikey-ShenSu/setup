@@ -14,5 +14,5 @@ npm install -g pm2
 SSH Key Creation
 ```bash
 ssh-keygen -t ed25519
-cat~/.ssh/id_ed25519.pub_
+cat ~/.ssh/id_ed25519.pub
 ```
