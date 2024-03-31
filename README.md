@@ -1,6 +1,14 @@
 # setup
 
-Bun Setup
+Nginx
+```bash
+sudo dnf update -y
+sudo dnf install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+Bun
 ```bash
 sudo dnf install git -y
 sudo dnf module list nodejs
